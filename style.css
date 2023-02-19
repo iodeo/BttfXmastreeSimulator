@@ -3,7 +3,6 @@ html, body {
   margin:0;
   padding:0;
   text-align:center;
-  background-color: black;
 }
 
 body {
@@ -35,6 +34,19 @@ button {
 
 button:hover {
 	background-color: #555555;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0.8em;
+  margin: auto;
+  font-family: monospace;
+  font-style: italic;
+  background-color: white;
+  color: grey;
 }
 
 .mainContainer {
